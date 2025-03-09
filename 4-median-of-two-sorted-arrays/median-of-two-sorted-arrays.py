@@ -12,7 +12,7 @@ class Solution(object):
         combining.sort()
         
         n = len(combining)
-
+        #checking if its odd
         if n%2 ==1:
             return  float(combining[n // 2])
         else:
